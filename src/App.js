@@ -2,6 +2,7 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
+import List from './components/List';
 
 function App() {
   const nome = "Ana"
@@ -10,10 +11,10 @@ function App() {
     <div className="App">
       <h1>Testando CSS</h1>
       <Frase />
-      <Frase />
     <SayMyName nome="Pedro" />
     <SayMyName nome="Conrado" />
     <SayMyName nome={nome} />
+   <List /> 
    
     <Pessoa 
     nome="Nathália" 
